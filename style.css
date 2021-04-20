@@ -65,15 +65,15 @@ output span {
   }
 }
 
-span.u0 { animation-delay: 0.0000000000s; }
-span.u1 { animation-delay: 0.0022739251s; }
-span.u2 { animation-delay: 0.0277392510s; }
-span.u3 { animation-delay: 0.2773925104s; }
-span.u4 { animation-delay: 2.7739251040s; }
-span.u5 { animation-delay: 27.739251040s; }
-span.u6 { animation-delay: 277.39251040s; }
-span.u7 { animation-delay: 2773.9251040s; }
-span.u8 { animation-delay: 27739.251040s; }
+/* span.u0 { animation-delay: 0.0000000000s; }
+span.u1 { animation-delay: 0.0000000000s; }
+span.u2 { animation-delay: 0.0000000000s; }
+span.u3 { animation-delay: 0.0000000000s; }
+span.u4 { animation-delay: 0.0000000000s; }
+span.u5 { animation-delay: 0.0000000000s; }
+span.u6 { animation-delay: 0.0000000000s; }
+span.u7 { animation-delay: 0.0000000000s; }
+span.u8 { animation-delay: 0.0000000000s; } */
 
 output span.symbol {
   display: inline-block;
@@ -86,22 +86,21 @@ output span.symbol {
 }
 
 span.number::before {
-  content: "0\A 1\A 2\A 3\A 4\A 5\A 6\A 7\A 8\A 9";
-  animation: animate 10s steps(10, end) infinite;
+  content: "0";
   position: absolute;
   top: 0;
   left: 0;
 }
 
-span.u0::before { animation-duration: 0.0022739251s; }
-span.u1::before { animation-duration: 0.0277392510s; }
-span.u2::before { animation-duration: 0.2773925104s; }
-span.u3::before { animation-duration: 2.7739251040s; }
-span.u4::before { animation-duration: 27.739251040s; }
-span.u5::before { animation-duration: 277.39251040s; }
-span.u6::before { animation-duration: 2773.9251040s; }
-span.u7::before { animation-duration: 27739.251040s; }
-span.u8::before { animation-duration: 277392.51040s; }
+/* span.u0::before { animation-duration: 0.0000000000s; }
+span.u1::before { animation-duration: 0.0000000000s; }
+span.u2::before { animation-duration: 0.0000000000s; }
+span.u3::before { animation-duration: 0.0000000000s; }
+span.u4::before { animation-duration: 0.0000000000s; }
+span.u5::before { animation-duration: 0.0000000000s; }
+span.u6::before { animation-duration: 0.0000000000s; }
+span.u7::before { animation-duration: 0.0000000000s; }
+span.u8::before { animation-duration: 0.0000000000s; } */
 
 @keyframes pop {
   100% {
